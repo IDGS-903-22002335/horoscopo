@@ -1,17 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    /* ... otras propiedades de display y color ... */
+    color: #334155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Inter', system-ui, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #334155;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
+    /* 👇 Propiedad abreviada que hace todo: */
+    /* URL, no-repeat, posición/tamaño, adjunto (opcional) */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWHeM2VCcBr3nkK1TWUKM_X7N32zl7SQvskg&s) no-repeat center center / cover fixed; 
+}
         .contenedor {
             display: flex;
             gap: 40px;
